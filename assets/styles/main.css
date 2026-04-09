@@ -164,6 +164,21 @@ section{padding:120px 60px}
 .t-nm{font-size:13px;font-weight:400;color:var(--ink)}
 .t-rl{font-size:11px;color:var(--ink-soft)}
 
+/* AGENDAMENTO */
+#agendamento{background:var(--paper)}
+.agend-grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:start}
+.agend-left h2{font-family:'Playfair Display',serif;font-size:clamp(36px,4.2vw,58px);font-weight:400;line-height:1.1;margin-bottom:22px}
+.agend-left h2 em{font-style:italic;color:var(--gold)}
+.agend-left p{font-size:15px;line-height:1.95;color:var(--ink-mid);max-width:620px;margin-bottom:34px}
+.agend-actions{margin-bottom:28px}
+.agend-info{display:grid;gap:18px;max-width:520px}
+.agend-item{display:flex;gap:18px;align-items:flex-start}
+.agend-ico{width:46px;height:46px;border:1px solid var(--border);border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:var(--white)}
+.agend-ico svg{width:22px;height:22px;color:var(--gold)}
+.agend-label{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.agend-value{font-size:16px;color:var(--ink)}
+.agend-note{font-size:14px;color:var(--ink-mid);line-height:1.8;padding:18px 20px;background:rgba(250,248,245,.7);border:1px solid rgba(224,216,206,.9);border-radius:16px}
+
 /* CONTACTO */
 #contacto{background:var(--ink);color:var(--white)}
 .ct-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:start}
